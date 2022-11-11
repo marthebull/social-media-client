@@ -18,7 +18,7 @@ Configures Prettier, ESlint and Jest to run on commit:
 - Adding this ("format": "prettier -w src/**/*.js") under scripts in package.json
 
 - Installing Jest (npm install --save-dev jest)
-- Installing eslint-plugin-test (npm i -D eslint-plugin-jest)
+- Installing eslint-plugin-test (npm install eslint-plugin-jest@latest --save-dev)
 - Adding this ({
         "files": ["**/*.test.js"],
         "env": { "jest": true },
