@@ -51,6 +51,8 @@ Configures to use a bundler:
 - Added this (- name: Build Vite
         run: npm run build-vite) to pages.yml under jobs
 - Made vite.config.js file
+- Made .eslintignore file to ignore dist folder and vite.config.js
+- 
 
 
 
