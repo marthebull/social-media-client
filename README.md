@@ -52,7 +52,15 @@ Configures to use a bundler:
         run: npm run build-vite) to pages.yml under jobs
 - Made vite.config.js file
 - Made .eslintignore file to ignore dist folder and vite.config.js
-- 
+- Removed "type": "Module" fro package.json
+
+
+Delpoyes to Github pages:
+- Went to github setting in rapo - pages - changed to github actions
+- Went to Actions on github and deployed page, it now deployed manually. 
+
+
+
 
 
 
