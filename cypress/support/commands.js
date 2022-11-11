@@ -23,3 +23,23 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import { login, logout, createPost, deletePost } from "../../src/js/api/index";
+
+Cypress.Commands.add("login", async (email, password) => {
+  await login(email, password);
+});
+
+Cypress.Commands.add("logout", () => {
+  logout();
+});
+
+Cypress.Commands.add("createPost", async (title, body) => {
+  let post = await createPost(title, body);
+
+  return post;
+});
+
+Cypress.Commands.add("deletePost", async (id) => {
+  await deletePost(id);
+});

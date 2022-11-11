@@ -1,4 +1,4 @@
-describe("Unit test, logges inn and gets token", () => {
+describe("Unit test, logges in and logges out", () => {
   let email = "marthe@noroff.no";
   let password = "Noroff2022";
 
@@ -8,5 +8,13 @@ describe("Unit test, logges inn and gets token", () => {
     cy.login(email, password);
     cy.getLocalStorage("token");
     cy.then(() => expect(window.localStorage.getItem("token")).to.not.be.null);
+  });
+
+  it("Removed token when logges out ", () => {
+    cy.visit("/");
+
+    cy.logout();
+    cy.removeLocalStorage("token");
+    cy.then(() => expect(window.localStorage.getItem("token")).to.be.null);
   });
 });

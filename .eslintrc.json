@@ -1,11 +1,17 @@
 {
+
+    "plugins": [
+        "jest",
+        "cypress"
+    ],
+
     "env": {
         "browser": true,
         "es2021": true,
          "amd": true,
-        "jest": true,
-        "node": true
-
+        "jest/globals": true,
+        "node": true,
+        "cypress/globals": true
     },
     "extends": "eslint:recommended",
     "overrides": [
