@@ -18,6 +18,6 @@ export default {
   },
 
   build: {
-    outdir: "./dist",
+    outDir: "./vite",
   },
 };
