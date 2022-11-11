@@ -1,7 +1,7 @@
 const path = require("path");
 
 export default {
-  base: "/social-media-client/",
+  base: "./",
 
   root: path.resolve(__dirname, "./"),
 
