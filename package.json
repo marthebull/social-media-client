@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "Noroff",
+  "author": "Marthe B",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.27.0",
