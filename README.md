@@ -63,6 +63,9 @@ Delpoyes to Github pages:
 [![Deploy static content to Pages](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml)
 
 
+Cypress testing:
+
+- Didnt get CSS apllied to my local host, so i changed outdir in vite.config.js to ./vite and changed path in pages.yml to ./vite.
 
 
 
