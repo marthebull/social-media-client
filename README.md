@@ -3,6 +3,7 @@ Course assignment for workflow
 
 - Installed node modules (npm init, npm i)
 - Adding ("type": "module") in package.json.
+- Added README.md and have updated steps frequently 
 
 
 
@@ -56,8 +57,8 @@ Configures to use a bundler:
 
 
 Delpoyes to Github pages:
-- Went to github setting in rapo - pages - changed to github actions
-- Went to Actions on github and deployed page, it now deployed manually. 
+- Went to github setting in repo - pages - changed to github actions.
+- Went to Actions on github and deployed page, it now deployes manually. (until it is merged to master-branch?)
 
 [![Deploy static content to Pages](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml)
 
@@ -69,14 +70,16 @@ Delpoyes to Github pages:
 
 The following workflows/hooks are required:
 
-Project is configured to run Prettier on commit
-Project is configured to run ESLint on commit
-Project is configured to run Jest on commit
-Project is configured to deploy to pages on merge to default
+-Project is configured to run Prettier on commit
+-Project is configured to run ESLint on commit
+-Project is configured to run Jest on commit
+-Project is configured to deploy to pages on merge to default
+
 The following file changes are required:
 
-Project readme file is updated to include new configuration information and status badges
-Project is configured for hosting (e.g. CDN links or a Bundler)
+-Project readme file is updated to include new configuration information and status badges
+-Project is configured for hosting (e.g. CDN links or a Bundler)
+
 The following features must be automatically tested with unit tests:
 
 The login function returns a valid token when provided with valid credentials
