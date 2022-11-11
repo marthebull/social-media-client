@@ -2,7 +2,6 @@
   "name": "ca-workflow",
   "version": "0.0.1",
   "description": "Course assignment for workflow",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
