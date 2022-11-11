@@ -49,7 +49,8 @@ Configures to use a bundler:
 - Installing vite (npm i -D vite)
 - Added ("build-vite": "vite build") under scripts in package.json
 - Added this (- name: Build Vite
-        run: npm run build-vite) to pages.yml
+        run: npm run build-vite) to pages.yml under jobs
+- Made vite.config.js file
 
 
 
