@@ -65,7 +65,12 @@ Delpoyes to Github pages:
 
 Cypress testing:
 
-- Didnt get CSS apllied to my local host, so i changed outdir in vite.config.js to ./vite and changed path in pages.yml to ./vite.
+- Installing Cypress (npm install cypress --save-dev)
+- Opens Cypress (npx cypress open)
+- Didnt get css apllied to localhost, so changed outDir in vite.config.js to ./vite and path in pages.yml to ./vite.
+- Installed cypress plugin (npm install eslint-plugin-cypress@latest --save-dev) and added (import "cypress-localstorage-commands";) to e2e. js in support in e2e-folder in cypress-folder.
+- 
+
 
 
 
