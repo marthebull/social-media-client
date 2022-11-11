@@ -59,6 +59,8 @@ Delpoyes to Github pages:
 - Went to github setting in rapo - pages - changed to github actions
 - Went to Actions on github and deployed page, it now deployed manually. 
 
+[![Deploy static content to Pages](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/marthebull/social-media-client/actions/workflows/pages.yml)
+
 
 
 
