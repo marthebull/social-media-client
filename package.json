@@ -2,18 +2,19 @@
   "name": "ca-workflow",
   "version": "0.0.1",
   "description": "Course assignment for workflow",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
+    "build-vite": "vite build",
     "start": "sass --watch src/scss:dist/css & live-server",
     "lint": "eslint src/**/*.js",
     "format": "prettier -w src/**/*.js",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preview": "vite preview"
   },
   "keywords": [],
-  "author": "Noroff",
+  "author": "Marthe B",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.27.0",
@@ -25,7 +26,8 @@
     "live-server": "^1.2.2",
     "npm": "^9.1.1",
     "prettier": "^2.7.1",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "vite": "^3.2.3"
   },
   "dependencies": {
     "bootstrap-dark-5": "^1.1.3"

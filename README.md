@@ -45,6 +45,24 @@ Configures Prettier, ESlint and Jest to run on commit:
 }) in package.json.
 
 
+Configures to use a bundler:
+- Installing vite (npm i -D vite)
+- Added ("build-vite": "vite build") under scripts in package.json
+- Added this (- name: Build Vite
+        run: npm run build-vite) to pages.yml under jobs
+- Made vite.config.js file
+- Made .eslintignore file to ignore dist folder and vite.config.js
+- Removed "type": "Module" fro package.json
+
+
+Delpoyes to Github pages:
+- Went to github setting in rapo - pages - changed to github actions
+- Went to Actions on github and deployed page, it now deployed manually. 
+
+
+
+
+
 
 
 The following workflows/hooks are required:

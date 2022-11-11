@@ -1,7 +1,11 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+         "amd": true,
+        "jest": true,
+        "node": true
+
     },
     "extends": "eslint:recommended",
     "overrides": [
@@ -18,5 +22,6 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-unused-vars": "warn"
     }
 }
